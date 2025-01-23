@@ -192,6 +192,20 @@ To ensure that others can replicate your environment, export your environment co
 
 > **Tip**: Be sure to update these files whenever you add or remove packages.
 
+To install all dependencies listed in an existing file, you can use one of the following commands:
+
+For Conda:
+
+```bash
+conda env update -n my_project_env --file environment.yml
+```
+
+For pip:
+```bash
+pip install -r requirements.txt
+```
+
+> **Note**: Don't forget to activate your environment in advance!
 
 ## **8. Useful Resources**
 
